@@ -28,3 +28,7 @@ A modern Minecraft launcher for Windows with data stored on drive D, separate in
 * Implement downloading of vanilla `server.jar` and loader server installers.
 * Replace manual path input with system file/folder pickers.
 * Add packaging through electron-builder and code signing.
+
+## Website
+
+Official website: https://denslauncher.netlify.app/
