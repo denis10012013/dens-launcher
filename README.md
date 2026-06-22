@@ -5,6 +5,7 @@ A modern Minecraft launcher for Windows with data stored on drive D, separate in
 ## What is already included
 
 * Electron + React + TypeScript project.
+* Data is stored by default in `D:\DENS LAUNCHER\data`, without using `%AppData%\.minecraft`.
 * Local settings, accounts, instances, skins, servers, and dev projects are stored in JSON.
 * Offline accounts with UUIDs in the `OfflinePlayer:<name>` format.
 * Basic installation and launch of vanilla Minecraft through Mojang manifests.
@@ -28,7 +29,3 @@ A modern Minecraft launcher for Windows with data stored on drive D, separate in
 * Implement downloading of vanilla `server.jar` and loader server installers.
 * Replace manual path input with system file/folder pickers.
 * Add packaging through electron-builder and code signing.
-
-## Website
-
-Official website: https://denslauncher.netlify.app/
